@@ -21,6 +21,10 @@
     "web-vitals": "^2.1.4",
     "xlsx": "^0.18.5"
   },
+  {
+  "proxy": "https://placement-portal-j0g9.onrender.com"  // URL of your backend server
+}
+,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
