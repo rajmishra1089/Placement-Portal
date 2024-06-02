@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm i node-modules axios bootstrap moment react react-dom react-hot-toast react-icons react-redux react-router-dom xlsx react-scripts web-vitals",
+    "build": "npm install node-modules axios bootstrap moment react react-dom react-hot-toast react-icons react-redux react-router-dom xlsx react-scripts web-vitals",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
