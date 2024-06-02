@@ -6,7 +6,7 @@ import NavbarAfterLogin from './NavbarAfterLogin';
 
 export default function AddStudent() {
     // Access the environment variable
-    const apiBaseUrl = "https://placement-portal-j0g9.onrender.com";
+    const apiBaseUrl = process.env.REACT_APP_API_BASE_URL;
     const navigate = useNavigate();
     const [formData, setFormData] = useState({
         name: '',
