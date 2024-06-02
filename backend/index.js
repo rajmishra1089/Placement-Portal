@@ -21,8 +21,8 @@ dbConnect();
 const user = require('./routes/user');
 const placement = require('./routes/placement')
  
-app.use('/vplace/v1/user',user)
-app.use('/vplace/v1/job',placement) 
+app.use('/user',user)
+app.use('/job',placement) 
 
 app.listen(PORT,()=>{
     console.log(`App is running on ${PORT}`);
