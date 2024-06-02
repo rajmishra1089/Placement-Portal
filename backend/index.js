@@ -4,7 +4,7 @@ const app = express();
  
 app.use(express.json());
 
-app.use(cors({origin: 'https://placement-portal-frontend-eu7n.onrender.com',credentials: true })); 
+app.use(cors({origin: true,credentials: true })); 
 require('dotenv').config();
 const cookieParser = require('cookie-parser');
 app.use(cookieParser());
