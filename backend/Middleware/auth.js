@@ -28,6 +28,7 @@ exports.auth = (req,res,next)=>{
         return res.status(401).json({
             success:true,
             message:"Something went wrong while verifiying the tokens",
+            error
         })
     }
 }
