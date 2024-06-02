@@ -11,7 +11,7 @@ app.use(cookieParser());
  
 
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 10000;
 
 //To connect to database
 const dbConnect = require('./config/database'); 
