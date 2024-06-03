@@ -7,7 +7,7 @@ const imagePaths = [
   OracleLogo,
   CiscoLogo,
   AdobeLogo
-  // Add more image paths as needed
+  // Add more image paths as needed .
 ];
 
 export default function HomeContent() {
